@@ -1,0 +1,24 @@
+/* Make body a flex container in column direction */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make main a flex container in row direction */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Keeps automatic height and width */
+}
+
+/* Article takes 2 parts of the width */
+article {
+  flex: 2;
+  overflow-y: auto; /* Scrollable vertically */
+}
+
+/* Aside takes 1 part of the width */
+aside {
+  flex: 1;
+  overflow-y: auto; /* Scrollable vertically */
+}
